@@ -4,7 +4,7 @@
 	"http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-
+	<!-- 开启开发模式可以调试 -->
     <constant name="struts.devMode" value="true" />
     <package name="pages" extends="struts-default" >
 		<action name="pages_*_*" >
